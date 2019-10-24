@@ -1,0 +1,17 @@
+<html>
+   <head>
+      <title>File Uploading Form</title>
+   </head>
+
+   <body>
+      <h3>Upload Prescription:</h3>
+      Select a file to upload: <br />
+      <form action = "/prescription" enctype = "multipart/form-data">
+         <h4>Browse for the prescription file and upload it here"</h4>
+         <input type="file" name="file" size="200" />
+         <br />
+         <button onclick="alert('File uploaded sucessfully')">Submit
+         </button>
+      </form>  
+   </body>
+</html>

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blood Bank</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="qwerty.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<style>
+body {
+	padding-top: 40px;
+}
+.p1 {
+	color: white;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+	margin: auto;
+}
+.responsive-image {
+	width: 100%;
+	background-size: 100% 100%;
+}
+and 
+finally
+,
+we 
+serve 
+for 
+every 
+view-port 
+the 
+right
+image
+: /* Retina display */
+@media screen and (min-width: 1024px) {
+	.responsive-image {
+		background-image: url('../img/retina.jpg');
+	}
+}
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px) {
+	.responsive-image {
+		background-image: url('../img/desktop.jpg');
+	}
+}
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px) {
+	.responsive-image {
+		background-image: url('../img/tablet.jpg');
+	}
+}
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px) {
+	.responsive-image {
+		background-image: url('../img/mobile-hd.jpg');
+	}
+}
+/* Mobile LD */
+@media screen and (max-width: 350px) {
+	.responsive-image {
+		background-image: url('../img/mobile-ld.jpg');
+	}
+}
+</style>
+</head>
+<body data-spy="scroll" data-target="#my-navbar">
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a href=" " class="navbar-brand">Blood Bank</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<a href="DonorRequest.jsp" class="btn btn-info navbar-btn navbar-right">Request
+					Blood</a>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#feedback">Feedback</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#login">Login/Register</a></li>
+					<li><a href="#faq">F.A.Q</a></li>
+					<li><a href="#contact">ContactUs</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron responsive-image"
+		style="background-image: url(b5.jpg)";>
+		<div class="container text-center roy">
+			<h1>
+				<b>e-Blood Bank System</b>
+			</h1>
+			<p class="p1">To the young and healthy it's no loss. To sick it's
+				hope of life. Donate Blood to give back life.</p>
+		</div>
+	</div>
+	<div class="container">
+		<section>
+			<div class="page-header" id="feedback">
+				<h2>Know Us..</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<blockquote>
+						<p>
+							<b>Blood is universally recognized as the most precious
+								element that sustains life. It saves innumerable lives across
+								the world in a variety of conditions. The need for blood is
+								great - on any given day, approximately 39,000 units of Red
+								Blood Cells are needed. More than 29 million units of blood
+								components are transfused every year. Despite the increase in
+								the number of donors, blood remains in short supply during
+								emergencies, mainly attributed to the lack of information and
+								accessibility. We positively believe this tool can overcome most
+								of these challenges by effectively connecting the blood donors
+								with the blood recipients.</b>
+						</p>
+						<footer></footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- Gallery -->
+	<div class="container" style="background-image: url(r6.jpg);">
+		<section>
+			<div class="page-header p1" id="gallery">
+				<h2>
+					Gallery.<small><b>Check it out</b></small>
+				</h2>
+			</div>
+			<div class="carousel slide" id="screenshot-carousel"
+				data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0"
+						class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="m1.jpg" alt="Text of the image">
+					</div>
+					<div class="item">
+						<img src="blood1.jpg" height="650px" alt="Text of the image">
+					</div>
+					<div class="item">
+						<img src="blood5.jpg" alt="Text of the image">
+					</div>
+					<div class="item">
+						<img src="blood7.jpg" alt="Text of the image">
+					</div>
+				</div>
+				<!-- End Carousel inner -->
+				<a href="#screenshot-carousel" class="left carousel-control"
+					data-slide="prev"> <span
+					class="glyphicon glyphicon-chevron-left"></span>
+				</a> <a href="#screenshot-carousel" class="right carousel-control"
+					data-slide="next"> <span
+					class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+			<!-- End Carousel -->
+			<hr>
+		</section>
+	</div>
+	<section>
+		<div class="well">
+			<div class="container text-center" id="login">
+				<h2>Login</h2>
+				<p>
+					<b>Enter your email and password</b>
+				</p>
+				<form action="LogIn" method="post" class="form-inline">
+					<div class="form-group">
+						<label for="email">Email</label> <input type="text"
+							class="form-control" name="email" placeholder="Enter email">&nbsp;
+					</div>
+					<div class="form-group">
+						<label for="pwd">Password </label> <input type="password"
+							class="form-control" name="p1" placeholder="Enter Password">
+					</div>
+					<button type="submit" class="btn btn-warning">SignIn</button>
+					<hr>
+				</form>
+				<div class="container">
+					<h2>New Member , Register Now</h2>
+					<form name="SignUpForm" onsubmit="return validate()" class="form-horizontal" role="form" method="post"
+						action="SignUp">
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="name">Name:</label>
+							<div class="col-sm-10">
+								<input type="text" required class="form-control" id="name"
+									name="name" placeholder="Enter name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="dob">Date of
+								birth:</label>
+							<div class="col-sm-10">
+								<input type="date" class="form-control" required name="bday"
+									min="1900-12-31" max="2099-12-31" id="bdate">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="age">Age:</label>
+							<div class="col-sm-10">
+								<input type="number" min="18" max="60" 
+									class="form-control" name="age" id="age"
+									placeholder="Enter age">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="comment">Enter
+								Adress:</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" name="address" required rows="3"
+									id="address" placeholder="Enter address"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="comment">Enter
+								Country:</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" required rows="3" name="country"
+									id="country" placeholder="Enter country"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="comment">Enter
+								State:</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" required rows="3" name="state"
+									id="state" placeholder="Enter State"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="comment">Enter
+								City:</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" required rows="3" name=city
+									id="city" placeholder="Enter City"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="pincode">pin-code:</label>
+							<div class="col-sm-10">
+								<input type="text" required class="form-control" name="pin"
+									id="pin" placeholder="Enter pin code">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="email">email:</label>
+							<div class="col-sm-10">
+								<input type="email" required class="form-control" name="email"
+									id="email" placeholder="Enter email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="Mobileno">Mobile
+								Number:</label>
+							<div class="col-sm-10">
+								<input type="number" required class="form-control" name="mobile"
+									id="mobile" placeholder="Enter number">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="pwd">Enter
+								Password:</label>
+							<div class="col-sm-10">
+								<input type="password" required class="form-control"
+									name="password" id="password" placeholder="Enter password">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="pwd">Re-Enter
+								password:</label>
+							<div class="col-sm-10">
+								<input type="password" required class="form-control"
+									name="rpassword" id="rpassword" placeholder="re-enter password">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2 bgroup"  for="blood group">Blood
+								Group:</label>
+							<div class="radio col-sm-10">
+								<label><input type="radio" value="O+" name="optradio">0+&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<label><input type="radio" value="O-" name="optradio">0-&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<label><input type="radio" value="A+" name="optradio">A+&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<label><input type="radio" value="A-" name="optradio">A-&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<label><input type="radio" value="B+" name="optradio">B+&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<label><input type="radio" value="B-" name="optradio">B-&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<label><input type="radio" value="AB+" name="optradio">AB+&nbsp;&nbsp;&nbsp;&nbsp;</label>
+								<label><input type="radio" value="AB-" name="optradio">AB-&nbsp;&nbsp;&nbsp;&nbsp;</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="mainCaptcha">
+								Captcha:</label>
+							<input type="text" required class="form-control"
+									name="captcha" id="captcha">
+							<div class="col-sm-10">
+								<button type="button" onclick="Captcha()"
+									class="btn btn-warning">Refresh</button>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="pwd">Enter
+								text :</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="mainCaptcha"
+									name="mainCaptcha" placeholder="Enter the text">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10" name="err" id="err"
+								style="color: 'red'; font-size: 15px;"></div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="Register" class="btn btn-warning">Register</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- end Container-->
+		</div>
+		<!-- end well-->
+	</section>
+	<!-- Call to action -->
+	</div>
+	</div>
+	<!-- Faq -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="faq">
+				<h2>
+					FAQ.<small>get answer to your queries</small>
+				</h2>
+			</div>
+			<!-- End Page Header -->
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-1" data-toggle="collapse"
+								data-parent="#accordion"> <b> Why is one not allowed to
+									donate blood before attaining the age of 18 years?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-1" class="panel-collapse collapse in">
+							<div class="panel-body">Physiologically there is no harm if
+								one satisfies otter conditions for blood donation. 18 being the
+								age of consent in our county, the reason is legal.</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-2" data-toggle="collapse"
+								data-parent="#accordion"> <b>Why people above 60 years
+									of age are not allowed to donate blood in India?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-2" class="panel-collapse collapse">
+							<div class="panel-body">With ageing, blood vessels start
+								constricting. Bloodletting from constricted veins may lead to
+								unnecessary pressure on hear resulting in many physiological
+								problems. It is not known at what age blood vessels start
+								constricting. It varies from individual to individual.
+								Therefore, arbitrarily the retiring age is considered as the age
+								of cutoff for blood donation.</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-3" data-toggle="collapse"
+								data-parent="#accordion"> <b>Who can give blood?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-3" class="panel-collapse collapse">
+							<div class="panel-body">Anyone between 18 and 60 years of
+								age and in normal health having a body weight of 45 kg. or more
+								and a haemoglobin content no less than 12.5 gms/hundred ml can
+								be a donor.</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-4" data-toggle="collapse"
+								data-parent="#accordion"> <b>What is Rh factor?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-4" class="panel-collapse collapse">
+							<div class="panel-body">Rh factor indicates the presence or
+								absence of an organic compound in the membranes of red cells of
+								human blood, similar to that present in the membrane of the red
+								cells of Rhesus Macacusmonkey. Those having the compound are
+								denoted as Rh positive and those without such compound are
+								denoted as Rh negative.</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-5" data-toggle="collapse"
+								data-parent="#accordion"> <b>I have heard of people
+									fainting. Is that common?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-5" class="panel-collapse collapse">
+							<div class="panel-body">Very occasionally a donor may
+								faint. The most common reason is psychological and often due to
+								rushing to get up too soon after donating. Relax and rest a
+								little and you will be fine.</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-6" data-toggle="collapse"
+								data-parent="#accordion"> <b>Will my blood group be the
+									same as that of either of my parents?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-6" class="panel-collapse collapse">
+							<div class="panel-body">May or may not be exactly. But
+								there should be a sort of relationship. We inherit our blood
+								group from our parents by random combination of one gene from
+								each of the parents. Dominant genes (A, B) prevails over
+								recessive gene (O).</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-7" data-toggle="collapse"
+								data-parent="#accordion"> <b>What physical tests are
+									performed before blood donation?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-7" class="panel-collapse collapse">
+							<div class="panel-body">weighing Hb estimation (copper
+								sulphate solution method) Measurement of blood pressure Checking
+								heart beats, condition of liver, lung and spleen.</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-8" data-toggle="collapse"
+								data-parent="#accordion"> <b>What is the liquid in the
+									bag into which the blood is taken?</b>
+							</a>
+						</div>
+						<!-- End panel title -->
+						<div id="collapse-8" class="panel-collapse collapse">
+							<div class="panel-body">It is called anti-coagulant and
+								prevents the blood from clotting. It also helps to preserve the
+								blood cells. It is known as CPDA (Citrate, Phosphate, Dextrose,
+								Adenine) solution.</div>
+						</div>
+						<!-- End Panel collapse -->
+					</div>
+				</div>
+			</div>
+			<!-- End panel group -->
+		</section>
+	</div>
+	<!-- End container -->
+	<!-- Contact -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="contact">
+				<h2>
+					Contact Us.<small> Contact us for more.</small>
+				</h2>
+			</div>
+			<!-- End Page Header -->
+			<div class="row">
+				<div class="col-lg-4">
+					<p>Send us a message, or contact us from the address below</p>
+					<address>
+						<strong>Saksham Bhatheja</strong></br> New Delhi </br> India </br> New Delhi -
+						110034</br> P: +91 9643889394
+						<hr>
+					
+					</address>
+				</div>
+				<div class="col-lg-8">
+					<form action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">Name</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-name"
+									placeholder="Enter your name">
+							</div>
+						</div>
+						<!-- End form group -->
+						<div class="form-group">
+							<label for="user-email" class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email"
+									placeholder="Enter your Email Address">
+							</div>
+						</div>
+						<!-- End form group -->
+						<div class="form-group">
+							<label for="user-url" class="col-lg-2 control-label">Your
+								Website</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email"
+									placeholder="If you have Any.">
+							</div>
+						</div>
+						<!-- End form group -->
+						<div class="form-group">
+							<label for="user-message" class="col-lg-2 control-label">Any
+								Message</label>
+							<div class="col-lg-10">
+								<textarea name="user-message" id="user-message"
+									class="form-control" cols="20" rows="10"
+									placeholder="Enter your Message"></textarea>
+							</div>
+						</div>
+						<!-- End form group -->
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- End the row -->
+		</section>
+	</div>
+	<script
+		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script>
+		function validate(){
+			 var x = document.forms["SignUpForm"]["name"].value;
+			var e=document.getElementById("err");
+			if(!validateName(x)){
+				 e.innerHTML="Please input valid name";
+	                document.forms["SignUpForm"]["name"].focus();
+	                return false;
+			}
+			 var pin = document.forms["SignUpForm"]["pin"].value;
+			if(!validatePincode(pin)){
+				e.innerHTML="invalid pincode";
+				document.forms["SignUpForm"]["pin"].focus();
+				return false;
+			}
+			 var mob= document.forms["SignUpForm"]["mobile"].value;
+			if(!validateContact(mob)){
+				e.innerHTML="invalid number";
+				document.forms["SignUpForm"]["mobile"].focus();
+				return false;
+			}
+			 var p= ""+document.forms["SignUpForm"]["password"].value;
+			 var cp= ""+document.forms["SignUpForm"]["rpassword"].value;
+			if(p.equals(cp)!=true){
+				e.innerHTML="password did not match";
+				document.forms["SignUpForm"]["password"].focus();
+				return false;
+			}
+			if(!ValidCaptcha()){
+				e.innerHTML="captcha did not match";
+				document.forms["SignUpForm"]["captcha"].focus();
+				return false;
+			}
+			return true;
+		}
+		function validatePincode(num){
+			var x;
+			for(var i=0;i<num.length;i++){
+				if(!(0<=num.charAt(i)<=9)){
+					return false;
+				}
+			}
+			return true;
+		}
+		function validateContact(num){
+			var x;
+			for(var i=0;i<num.length;i++){
+				if(!(0<=num.charAt(i)<=9)){
+					return false;
+				}
+			}
+			if(num.length==10)
+			return true;
+			return false;
+		}
+			function validateName(text){
+				var t=text.trim;
+				for(var i=0;i<t.length;i++){
+					if(!(90>=text.charAt(i)>=65)){
+							return false;
+						}
+					}
+				return true;
+			}
+		  function Captcha(){
+              var alpha = new Array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z');
+              var i;
+              for (i=0;i<6;i++){
+                var a = alpha[Math.floor(Math.random() * alpha.length)];
+                var b = alpha[Math.floor(Math.random() * alpha.length)];
+                var c = alpha[Math.floor(Math.random() * alpha.length)];
+                var d = alpha[Math.floor(Math.random() * alpha.length)];
+                var e = alpha[Math.floor(Math.random() * alpha.length)];
+                var f = alpha[Math.floor(Math.random() * alpha.length)];
+                var g = alpha[Math.floor(Math.random() * alpha.length)];
+               }
+             var code = a + ' ' + b + ' ' + ' ' + c + ' ' + d + ' ' + e + ' '+ f + ' ' + g;
+             document.getElementById("captcha").value = code;
+           }
+           function ValidCaptcha(){
+               var string1 = removeSpaces(document.getElementById('mainCaptcha').value);
+               var string2 = removeSpaces(document.getElementById('captcha').value);
+               if (string1 == string2){
+                 return true;
+               }
+               else{        
+                 return false;
+               }
+           }
+           function removeSpaces(string){
+             return string.split(' ').join('');
+           }
+		</script>
+</body>
+</html>
