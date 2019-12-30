@@ -1,6 +1,2 @@
-Thanks for downloading this theme!
-
-Theme Name: eBusiness
-Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+Thanks for downloading 
+all in one healthcare portal that include many services like appointment booking , donating blood , online medicine store and many more..
